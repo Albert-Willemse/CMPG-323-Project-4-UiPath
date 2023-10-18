@@ -1,0 +1,117 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_5__Logout" sap:VirtualizedContainerService.HintSize="1166.4,680" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="5. Logout" sap:VirtualizedContainerService.HintSize="545.6,600" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Index - EcoPower_Logistics" sap:VirtualizedContainerService.HintSize="483.2,488" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d1cd802f-36bf-41b1-8a55-abd14c71a182" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,271.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d1cd802f-36bf-41b1-8a55-abd14c71a182" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://cmpg323-ecopowerlogistics.azurewebsites.net/Customers" CvTextArea="1655, 172, 65, 22" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1646, 155, 85, 52" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='nav-link btn btn-link text-dark' aaname='Logout' check:innerText='Logout' /&gt;" Guid="d1affe5c-3fca-4037-892e-b8ff7035539d" InformativeScreenshot="712797eddb8cdf4d9012828daa3ffa9e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Index - EcoPower_Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="89, -9, 1840, 1098" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAABDISURBVGhDxZkHWFVntoaZ0Zs4meRKTMFEUUBFpBe7EcWKiiWZmTQT0cQ6M9E0E2MDFUsQBbGgWNBEEyMqqAkoUpR6DuUcBLFgoQhiQY5gCcphf7PWv/c+HLjEyZ2bO/M/z/d8a61/H/a7/nIC0eK3GM+1bWP5dscOU1fYW4dGuXSLyR3oWnJ5sLvh5rDeuDmsDy57exhyBjiXxHj2TFnRwzp09EuWkzq3e8pG+fh/ZjD0LGureTHu9ikqqOxmsY+ay7rh46WI4qGeUmJvB/2bVi/4/1ubYfD5Nq8GXBrsVnPTx0sSYATTzBmcIRVQtabmcuyFqiEe0o2h1BAprGfXqP/3RubbvELg6tGQIUxgJFEbwoDySldRLCA5VkDl2FPkstSY3ROfd+0YoLzutxu8Mkm9nfRi9cQKMkxzN4Eqq6oCqeCmfIha98R1b3dqkFzIQ+Ts2n5OJb/Zbrxp9aJ/8WtuhqaV9JSBTKDmsIpUKG8PyRzSVB/MoBwTtABvUqWY88C5gS6GUS+0n6Rg/GuDt1OFVcHU1WQ42QmQXQEUkMpKyi6DMlglQ4rYjRojV6G93UUsS43JB7vjU2urf+1IfdalY4D56jbBmMUMQK6umogVEDGnxOa1ytfcqBGCYydA9golZq8YZBbLTk28/L9rgr/a1G1+4rYrLgPKKyZiBlKdayqQUhdgap2AGbJJMrSqa6yBrtKbVs/7K3hPHnx5zg9wqRGAvO30UrHtnJvJtIqK08vkmMHIVciKQa7ySrIzlOotJEBbxEKDZBX2c6zp/PR//fOLre3nWNJsFRmIYwXI3EWsAprLtIotcwVwoItkAuRYgSwfwLErxbLM8/IBzlKcWw+9gtn64AtjWkWWGXhzwCYYoVZWleFUlwEZRHUCIvBysxoDyjnPNbksF6EyeuZja6tABbf5eOrFZ2zWfjK0aTUJin6IeqEUoKaY54SrIqAK30Go3RmBel0OGq5XwjQa6iDV5qKxNARG/QQYtb1JXmjQeEpGjZecs6sxzRlNcyI2qfqkq8Hy2TaWCnbTsJntudt79yToxvZRYM3gBKACrKyS+apW/dlXQP/aId06Ro34KVAeUoPGXWrIcidgBVQr6tQg1zxELNfkfMmHHZvvwlMvPGPj+d0b8CLNCRplAuNtbg4ti7daiLbUEPY1GuvqFDR5XDdI+DH/Eban1COSdOrCYxRXGZVZZRjraEeCCcidQN2Ey7BqTsrimixqkOQq6tUJzs13oYN3l6nu+yZKHvsmwXPf64j7Sz8FUD6nzc4in1WK+Tze3bFFoZHHMf0jzN59H30C7qJvYK3wPoGKKJ4Ydo+eeaw8LY/GaxEqGIxZbhSTU9zI4EpM8/JcpjM1xbEr5r714jwF38LCYaWP3n3vRInhuZEpwb4yrAJd1p+hyVUNcEFN2BoFgVe8EbOiZPDeCnBvjhWJOrvSFD/Ln1EH7YSAkuVCx8lFgSUnsYuYag1ZTqKeuNkmRcDz8XH7doLkRg147J0EdxL7plmDpLL+ThKttADmuFTJKyaNktRjwyDjQ+uaAXstbZKpZjbP4s+YmqBLbtT5EqST1JDJgM4UOxNwU2zMZHciOZpqln/8vaXFf3tZTXT/diJaatDOCSjydpFK+zE4N+EM9tJ+jtK9H2PlF9OYuesegRrMJMN6NqsZmnKaU/MZ9Fl1SLXZCjQBCjGsE+W9OKcGKGfnJkTuiClj2k+1ePVdp1C3byZA1kTh3IDrN+OlNR8NNkGX9HNCSX8nVLw+SnklcJTOPIO0LrmJ1tU0d1T3SPlpdK+z+5vgZPUyOTVC7kDNcOwgtG7uy2EW3RYMSHHdMwEue8ZL5k247PGTuK4d6Q4Br+jO+tXK64Bx62rhscTQJAJqlv+SzJ6bbrYLjeWbFGgCzOgpsYwsypWa2ZwDDq3uHGvRK2R4ieue8WhNLrv9pHdWDpdK+vSSrpJK+jri57xs8bIL9LXoTgAsBlHjJ6umlZrBdBeku1oBSNCyMnsK6Ib0HtwI1ewp70HwnNvjykHbEgvn3eMk190ETHIR8hMx1znm2tGJHqKBq9SAenmTzz2GGwEJLVZcAZTdvGZeJ+fnSeozR9RjVF9BgPYC1JjRw8xlNaR3l6gZ4caM7rgdb2uwcInyg3MUwZL/koaH++JqbwfpildPSX4TEJH8M1wJQpUK26zWSqzCm9e3JD1Ufirdg/TuDEjqJiBVNaTbScb0bmJe1Dgmt3CKGis5E2RzjYPzLhLFTrvGSo6ksA/744qXg6kBfqkKYS6XJ+Qt5wYsr8anUWXQF15EdflZ3Lqqx61L6VL1xWNSTVEEHuRNw+MM+m9Aup2sjG7cCBrSbKk5cootem0abXDcNUZyYmASx+xOO8eKnOuOO8dIfSN8cWaQI/2SViEaiNXVw2VRDZwX3RHOcMLN4xauPjs46Ba2Hr2MiuJ8gmYReIkOt0v0uF1WgDvXimCoPA9DxTncvZaP+0Wr8TiTfjdKs6FdsCVwUpoNNWULi+7BQ0sYktWLQE3g5Kq4zlowbxAe5mpFA5V08RhIlgzXuprPTd9agavnZfDbJWdQU16Eu1XFqLtxBfdulaDu5iUCP0NzObh5WYPSggSUFSbDUJaDhzlvCfCGtC4S6/KBTiUWnf/mGeO4YyytsgzruGNMs7jXDl+JJer0XO7BSNEAj6k7auFEUE4EKfsvy3lRNYKjr+DGZVptBf5uxXmCzMRlXSyK82JRfvYodCnh+GHbNERvn4MT3y1HdORnSDochmramerSAqku/3M8TuuKhlRrKTHcKsWi49uOoTKcDCuaUXKWw/bR1AC7r8R6O3Sigg/E5D2C48I7cCRAIYoZVtRaaN7OMty8osLrcae8EDUEVXhqK+L3zsGhyOmICh6PbUHDsH7xUAR8MhhbV01G1Lq/4lRsBG5ezRNHiz9/P3ca7YI11v29fZhF+wGdpjKkAN3uC5ZoZrsquSZLzrXXzygtAP7b69CLAFUxbK+F1SZwrr27sQLXL+Up8Pm0kno6OoWorSzCJU005k32xriBveDtZocRfezh7+eGbas/QG7ibkRHLELywY24Q83ynaBdwO2rdJyy/TDhtXYTLdr8oa2lgIv0Rc/IUaIJBxFTU+Tm4ho/M/x7f9Q9ui8aqKhpxIhgAxwImsEdvpK9Kb6DQ0m8csolJVWX5hPQGRjvliF4wRx0fq4NOrZvh1ct/wD7ju3RhXzSsH7IiduFFIIv1sZRs3ShK4pQdVGLW1fyYDi3RbKxaiP/kW/9WZ8Uh8jRCuho9Nw2iuAp36bW5LrIldrKzAjRAA9uYsr2WgHcUgNX3BQvvE3fMtV8dAjccK0Q96su4A7VxvWxw+teXfD5+N5Y/Hp/bJk5DsvfGwmnTs9jwfQ3UFtGu0Wf4QZuXMpGVbGWjtJZPoKS1csvvSIasBzeZV5PAlNlv3Wk1JSPalYXc1vl2sbcb5UW5HE4tx7Dvq6BPYH3JLF/tbcUtRVnxerVXaevRnp5VXE26m9fwZUzaRjl8iq0G+bi1oFVyNnwKXI3foGiqCCMcrYWDeBeuWi4XBePC0m7cSNjL66mROF6xvfw/9Po2aKB37dra9k91MfQg+BYAlCBZLdXxHPs5jXeibp6+Tip43ylESeLHiH85AMc/uEbaOK3Qh+/BQXkxccjkLBzObRHNiPr++UY69YJCatn4kjANCSvnIHIv01E5Ny/YMYIdwT6j4TxbAyqkrai8shKGH5agYaE5bj/YwDqjgYgOmDycdEAjw5+dgEqlH0EwUaMkOwjRlJMolp3Je++hVzJeyjzQ/ZOlg5dOKHgNx85kXNR/P0XuHF4IaoOfIGfjy+H4egK3Dq8BA9OrEDoByOw/9PX8dloFxxf9C6C/jQA4VNHY/20cUgIfA9SVijqf1qGe0cWQ0qlv9xOLoeUtBrGhJWo2v/lXQVf3gW7kKE1KliPLSR2EY9oljO0Kec5JR/67XtYmR4BTWU+rtXdkDtIXgucJqWvI62nnP4UTVwFnAoG8jZTaSZOBc3C6YCp0K79CNHz3sKPX76PuMCZuBG9hKBD8OBYIO7GLkLjySDUHf4K9fErqJGVeHg8qF7Bl8fz4+wCaIUFTLctwyUTuHBVct5tM8+LHTHFXO++WRbX2G/FLJIe/hSIR3GBqI9bhtpDX+HnY0thpJ1oTFyJxylrkbZqGvbMHoNjX72Ljf6jEPrWQBRs+Ug025i0Bo/pWSM1zeKf05jyNRqTV+NO7JKmHVCH9YJ+ehVClQrfffNwRebzLXPz2nBcPPwlHp8IQgMdl0fHl+HBjwRPL29MWUNOu5Edjvxtc5GwzB9xC/2x/+O38T0dqfJYOiqaDTCeDoaUslrsBDfTSMdH4hrt4Pk98y8o2E2jbYd2NrZrvQ3dNg2HKgYxd7tNwyTZfSSOGZZdlo+YUxV/cK4knfoaUnoIvZScXt5Ix0lKoyOkC0P6noUI/2Qyzm6dhxMrZ+G7+e9g3/w3cTMxhOapgcQgOi5B4vg0HA+kfDkenaCFoF05GDg5VsFuPp7r23Gq7UYfiSWDDFNE8UZyFuV25E3PyHOcm+rky76ZQqtNq0bAjadoxdNIqWtQmxyKSs1+fLctFDPfexs/LJtOl3kCvv37GOz+YgpWffkx7uXsxKP4pXgQM5++fZbR5eWdDKRvoCX0RbAEM8b1lr9GWxsdxtgFMkhrsg0faoI01cN9/sdzrJHb/Oi8rqKVpybS1+J6ciR9pe5H/KEYnE5Ipl/itNi3YzPef+dNLJnxZ4R/OgVvjPVD0LJ1SE3Ox6mj8Sj7KQJS/CIY45bgNh3JmiMLYTgWgC4vt3/y/263HGMTIMBINgRtqziL4US8geJwbspHyDSv5OwpsR+j8fhS3NAcRna6BhmJqdAkpyIz6TTOZGpQebEIxw7sw9KFC/DNrigEBwXjjPYscjOLkJikRzLpQspxXD+4GGd3TEfJ/nlY99cxrR+fluMZ5xcndVnzmoFATZC2G3zQdcMQgh8icazWbOkZrrM4589wPCzCV7qeGoXLhfm4pMtBQZYGuoxs5GXmkXJRmJ2L0qJzyEpKRr4mD1fPXqZaITVQAG0GeXoudNqLKEw9jfIDH6M0+pN6qw7PdlYQ//lo+3w7m85L+5UIwDACD1OccgFJcdcwb5I8Z5Jp3lvadWwGLuVn05HJwrncHOizCCpLL6TX6KipHKSeSEBaUiYKNPnQZeqQnVFAogYy9CjI0KJAew6XE/dg0uAev+6fm1qO9r5dA1SwLgRlEzZEgHYJ5Vh2Ne4aKs+xBm3uj9Ljz+Nm+myc16biYq4GBdl50GnkBnQEzCuflpCIjFNaynnlzyBHcw65LIr1aRpkp6Tho+nTWv8Hjl87eDdeeKdnFIMypLms1w0WDViHDhZzFIv69h/oz8Ckp6WGpHa4kzwEl3JO4Lwuj845HaEsHUmPfK0O6SdPIp3uhjaDVj8tE0ejjyAuNo6OWx6SYg7XDuzbx0/B+L8PbuTZPh2nvvK5l57BBfB6b5PkmjcGburP8E1KfBoPkzpJFdkb6JxnE3iuaCInXYt8uhsX8mn10+iI0a5oU3OQk5qNzSFhx15+8QVr5dW//eBm+LJbTrILfWmOS8qri/uWcBOdQ16T9kd3wu0jbQ3F+9qWHFzWNiZkTpvQ90f/zt/yj7+z7O3h4T37w+kBG0LWxx367sCFnNTUe5lJp+4d2n/wYlhIeNzMD2YFerl7eSuvaWVYWPwDS52fz/YxrHMAAAAASUVORK5CYII=" InformativeScreenshot="eead75168a61bb0ab5a3937a0db69421.jpg" Selector="&lt;html app='chrome.exe' title='Index - EcoPower_Logistics' /&gt;" Title="Index - EcoPower_Logistics" Url="https://cmpg323-ecopowerlogistics.azurewebsites.net/Customers" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
