@@ -1,7 +1,6 @@
 # CMPG-323-Project-4-38205742
 _Use UiPath to enter data from an existing dataset into an existing web application to conduct user testing. This project will introduce me to various testing techniques and teach me how to use RPA._
 
-[Include a project title and a brief project description here.]
 
 ## Table of Contents
 - [Project Goal](#project-goal)
@@ -11,12 +10,13 @@ _Use UiPath to enter data from an existing dataset into an existing web applicat
 
 ## Project Goal
 
-The project's primary goal is to automate tasks related to data management and functional testing within a specific application, optimizing efficiency and reducing errors. This includes automating data retrieval, manipulation, and various operations on customer, order, product, and order details data while ensuring secure login and logout processes.
+_The project's primary goal is to automate tasks related to data management and functional testing within a specific application, optimizing efficiency and reducing errors. This includes automating data retrieval, manipulation, and various operations on customer, order, product, and order details data while ensuring secure login and logout processes._
 
 ## Usage
 
-1. Register 
-2. Add your email and password in Assests
+1. Go to https://cmpg323-ecopowerlogistics.azurewebsites.net/
+2. Register 
+3. In UIPath Orchestrator add your email and password in Assests
    
    ![image](https://github.com/Albert-Willemse/CMPG-323-Project-4-38205742/assets/112475881/14ca77ee-51b7-48f6-b8b3-4ebc91850653)
 
@@ -49,7 +49,7 @@ The project's primary goal is to automate tasks related to data management and f
 | **6. WriteData**                   | Write the Test Results to the Excel sheet     |
 
 
-<img src="https://github.com/Albert-Willemse/CMPG-323-Project-4-38205742/assets/112475881/c6922525-abd6-4a53-ad90-4dfdae64eb35" width="80%">
+<img src="https://github.com/Albert-Willemse/CMPG-323-Project-4-38205742/assets/112475881/c6922525-abd6-4a53-ad90-4dfdae64eb35" width="85%">
 
 
 # Reference List
