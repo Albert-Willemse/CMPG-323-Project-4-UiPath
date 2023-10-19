@@ -30,7 +30,7 @@ _The project's primary goal is to automate tasks related to data management and 
 7. Check the results in the Output folder
    
 
-# Main Workflow Steps
+## Main Workflow Steps
 
 
 | Step                           | Description                                   |
@@ -49,7 +49,7 @@ _The project's primary goal is to automate tasks related to data management and 
 | **6. WriteData**                   | Write the Test Results to the Excel sheet     |
 
 
-<img src="https://github.com/Albert-Willemse/CMPG-323-Project-4-38205742/assets/112475881/c6922525-abd6-4a53-ad90-4dfdae64eb35" width="85%">
+<img src="https://github.com/Albert-Willemse/CMPG-323-Project-4-38205742/assets/112475881/c6922525-abd6-4a53-ad90-4dfdae64eb35" width="95%">
 
 
-# Reference List
+## Reference List
