@@ -117,10 +117,11 @@
       <AssemblyReference>System.Collections</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="4.3 Test Edit Delete Orders" sap:VirtualizedContainerService.HintSize="921.6,3048.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="4.3 Test Read &amp; Edit &amp; Delete Orders" sap:VirtualizedContainerService.HintSize="921.6,3080" sap2010:WorkflowViewState.IdRef="Sequence_4">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Index - EcoPower_Logistics" sap:VirtualizedContainerService.HintSize="859.2,2936.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsCVEnabled="True" OpenMode="Never" ScopeGuid="f861988b-d357-4e12-b455-4a53e7e6bed0" Version="V2">
@@ -192,7 +193,7 @@
                                     <uix:TargetAnchorable BrowserURL="https://cmpg323-ecopowerlogistics.azurewebsites.net/Orders/Details/2133913" DesignTimeRectangle="96, 385, 1650, 120" DesignTimeScaleFactor="1.25" FriendlyName="'Order Date'" FullSelectorArgument="&lt;webctrl tag='DL' /&gt;" Guid="9593f24e-381b-4855-b277-aa5c5777685b" InformativeScreenshot="fe0c670a092173156f359c6dca44ad0b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Details - EcoPower_Logistics' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
                                   </uix:NExtractData.Target>
                                 </uix:NExtractData>
-                                <If Condition="[CDate(CurrentOrder.Item(&quot;OrderDate&quot;)) = CDate(Order(0).Item(&quot;RecordData&quot;).ToString) And&#xD;&#xA;CurrentOrder.Item(&quot;DeliveryAddress&quot;).ToString = Order(1).Item(&quot;RecordData&quot;).ToString And&#xD;&#xA;CurrentOrder.Item(&quot;CustomerId&quot;).ToString = Order(2).Item(&quot;RecordData&quot;).ToString]" sap:VirtualizedContainerService.HintSize="510.4,525.6" sap2010:WorkflowViewState.IdRef="If_4">
+                                <If Condition="[CDate(CurrentOrder.Item(&quot;OrderDate&quot;)) = CDate(Order(0).Item(&quot;RecordData&quot;).ToString) And&#xA;CurrentOrder.Item(&quot;DeliveryAddress&quot;).ToString = Order(1).Item(&quot;RecordData&quot;).ToString And&#xA;CurrentOrder.Item(&quot;CustomerId&quot;).ToString = Order(2).Item(&quot;RecordData&quot;).ToString]" sap:VirtualizedContainerService.HintSize="510.4,525.6" sap2010:WorkflowViewState.IdRef="If_4">
                                   <If.Then>
                                     <Sequence sap:VirtualizedContainerService.HintSize="476.8,171.2" sap2010:WorkflowViewState.IdRef="Sequence_28">
                                       <sap:WorkflowViewStateService.ViewState>

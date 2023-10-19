@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="_4_2_TestEdit_DeleteProducts" sap:VirtualizedContainerService.HintSize="1166.4,3113.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="_4_2_TestEdit_DeleteProducts" sap:VirtualizedContainerService.HintSize="1166.4,3144.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -119,10 +119,11 @@
       <AssemblyReference>System.Collections</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="4.2  Test Edit &amp; Delete Products" sap:VirtualizedContainerService.HintSize="921.6,3048.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="4.2  Test Read &amp; Edit &amp; Delete Products" sap:VirtualizedContainerService.HintSize="921.6,3080" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Index - EcoPower_Logistics" sap:VirtualizedContainerService.HintSize="859.2,2936.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsCVEnabled="True" OpenMode="Never" ScopeGuid="f861988b-d357-4e12-b455-4a53e7e6bed0" Version="V2">
@@ -194,7 +195,7 @@
                                     <uix:TargetAnchorable DesignTimeRectangle="96, 385, 1650, 132" DesignTimeScaleFactor="1.25" FriendlyName="'Product Name'" FullSelectorArgument="&lt;webctrl tag='DL' /&gt;" Guid="900fc236-e7e2-4914-8db2-6dbb401ec51d" InformativeScreenshot="fe0c670a092173156f359c6dca44ad0b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Details - EcoPower_Logistics' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
                                   </uix:NExtractData.Target>
                                 </uix:NExtractData>
-                                <If Condition="[CurrentProduct.Item(&quot;ProductName&quot;).ToString = Product(0).Item(&quot;RecordData&quot;).ToString And&#xD;&#xA;CurrentProduct.Item(&quot;ProductDescription&quot;).ToString = Product(1).Item(&quot;RecordData&quot;).ToString And&#xD;&#xA;CurrentProduct.Item(&quot;UnitsInStock&quot;).ToString = Product(2).Item(&quot;RecordData&quot;).ToString]" sap:VirtualizedContainerService.HintSize="510.4,525.6" sap2010:WorkflowViewState.IdRef="If_6">
+                                <If Condition="[CurrentProduct.Item(&quot;ProductName&quot;).ToString = Product(0).Item(&quot;RecordData&quot;).ToString And&#xA;CurrentProduct.Item(&quot;ProductDescription&quot;).ToString = Product(1).Item(&quot;RecordData&quot;).ToString And&#xA;CurrentProduct.Item(&quot;UnitsInStock&quot;).ToString = Product(2).Item(&quot;RecordData&quot;).ToString]" sap:VirtualizedContainerService.HintSize="510.4,525.6" sap2010:WorkflowViewState.IdRef="If_6">
                                   <If.Then>
                                     <Sequence sap:VirtualizedContainerService.HintSize="476.8,171.2" sap2010:WorkflowViewState.IdRef="Sequence_41">
                                       <sap:WorkflowViewStateService.ViewState>
