@@ -1,4 +1,4 @@
-# CMPG-323-Project-4-38205742
+# CMPG-323-Project-4-UiPath
 _Use UiPath to enter data from an existing dataset into an existing web application to conduct user testing. This project will introduce me to various testing techniques and teach me how to use RPA._
 
 
@@ -14,7 +14,7 @@ _The project's primary goal is to automate tasks related to data management and 
 
 ## Usage
 
-1. Go to https://cmpg323-ecopowerlogistics.azurewebsites.net/
+1. Go to https://cmpg323-ecopowerlogistics.azurewebsites.net/ - (Site offline)
 2. Register 
 3. In UIPath Orchestrator add your email and password in Assests
    
